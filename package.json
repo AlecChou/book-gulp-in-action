@@ -1,0 +1,13 @@
+{
+    "name": "book-gulp-in-action",
+    "version": "0.0.1",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jaceju/book-gulp-in-action.git"
+    },
+    "author": "Jace Ju <jaceju@gmail.com>",
+    "dependencies": {
+        "gitbook-plugin-disqus": "*"
+    }
+}
