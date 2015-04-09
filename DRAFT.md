@@ -471,7 +471,7 @@ gulp.task('serve', function() {
 // Watch
 gulp.task('watch', ['prepare:develop'], function() {
     gulp.start('serve');
-    gulp.watch('assets/templates/**/*.jade', ['jade']);
+    gulp.watch('assets/templates/*/.jade', ['views:develop']);
     gulp.watch('assets/styles/**/*.scss', ['styles']);
     gulp.watch('assets/scripts/**/*.js', ['scripts', 'jest']);
     gulp.watch('assets/images/**/*', ['images']);
